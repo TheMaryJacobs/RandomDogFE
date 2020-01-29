@@ -1,2 +1,0 @@
-# RandomDogFE
-Created with CodeSandbox
