@@ -1,0 +1,41 @@
+.footer {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 150px;
+}
+
+.footcontent {
+  display: inline-flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
+}
+.logo {
+  height: 100px;
+  /* align-self: center; */
+}
+
+p {
+  font-family: "Bebas", sans-serif;
+  padding-top: 7px;
+}
+
+h3 {
+  margin-top: -15px;
+  color: rgb(123, 167, 167);
+  font-size: 32px;
+  font-family: "Bebas", sans-serif;
+}
+
+h3:hover {
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./styles.css";
+import Foot from "./components/Foot";
 
 export default function App() {
   const [dogImage, setDogImage] = useState({});
@@ -24,6 +25,7 @@ export default function App() {
         <button className="Button" onClick={newDog}>
           SHOW ME ANOTHER
         </button>
+        <Foot />
       </div>
     </div>
   );
