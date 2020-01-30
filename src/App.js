@@ -17,12 +17,14 @@ export default function App() {
 
   return (
     <div className="App">
-      <h2>THIS A DOG</h2>
-      <img src={dogImage} alt="dogs" />
-      <br />
-      <button className="Button" onClick={newDog}>
-        SHOW ME ANOTHER
-      </button>
+      <div className="main">
+        <h2>THIS A DOG</h2>
+        <img className="dogpic" src={dogImage} alt="dogs" />
+        <br />
+        <button className="Button" onClick={newDog}>
+          SHOW ME ANOTHER
+        </button>
+      </div>
     </div>
   );
 }
