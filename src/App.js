@@ -23,9 +23,11 @@ export default function App() {
         <img className="dogpic" src={dogImage} alt="dogs" />
         <br />
         <button className="Button" onClick={newDog}>
-          SHOW ME ANOTHER
+          HOT DOG
         </button>
-        <Foot />
+        <button className="Button" onClick={newDog}>
+          NOT DOG
+        </button>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@
   left: 0;
   top: 0;
   width: 100%;
+  padding-bottom: 100px;
   background-attachment: scroll;
   background-repeat: auto;
   background-position: center top;
@@ -23,14 +24,15 @@ h2 {
   border-radius: 5px;
   border-width: 5px;
   border-color: black;
+  width: 400px;
 }
 
 button {
   background-color: black;
   color: white;
   border-radius: 5px;
-  height: 75px;
-  width: 200px;
+  height: 50px;
+  width: 150px;
   font-family: "Bebas", sans-serif;
   font-size: 24px;
   margin: 25px;
